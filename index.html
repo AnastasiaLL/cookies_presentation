@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/style.css">
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="start">
+				 
+					<h1 id="cookies">Cookies</h1>
+				</section>
+				<section> <h1 id="color">What are Cookies?</h1></section>
+					<section>
+						Cookies are small strings of data that are stored directly in the browser. 
+						They are a part of the HTTP protocol
+						<br>
+						<img id="meme" src="meme-accept.jpg" alt="cook">
+					</section>
+
+				<section><h1 id="color">What Are Cookies Used For?</h1></section>
+				<section> 
+
+					<ul>Cookies remember: 
+						<li> your website logins</li>
+						<li> shopping carts </li>
+						<li> Personal settings of social networks </li>
+					</ul>
+
+					<img src="meme-cry.jpg" alt="cook">
+				</section>
+				<section><h1 id="color">How does it work?</h1></section>
+				<section>
+					<ol> 
+						<li> data creation </li>
+						<li> data labeling  </li>
+						<li> exchange between your computer and the network server </li>
+					</ol>
+				</section>
+				<section><h1 id="color">Where are cookies stored?</h1></section>
+					<section>
+						<img src="2-1.jpg" alt="HTTP">
+					</section>
+					<section>
+						<img src="4.jpg" alt="HTTP">
+					</section>
+					<section>
+						<img src="3.jpg" alt="HTTP">
+					</section>
+					<section>
+						<code> document.cookie </code>
+						<img src="5.jpg" alt="HTTP">
+					</section>
+				<section>
+					<h1 id="color">Сookie limits</h1>
+				</section>
+					<section> 
+						<ul>
+							<li> cookies can be only strings</li>
+							<li> cookies are limited to 3 kb </li>  
+							<li> the total number of cookies per domain is limited to around 20+  </li>
+							<li> time limits </li>
+						</ul>
+					</section>
+					<section>
+						<code> <h3> expires, max-age </h3> 
+						expires=Tue, 19 Jan 2038 03:14:07 GMT
+						</code>
+					</section>
+				<section>
+					<h1 id="color">Are cookies safe?</h1>
+				</section>
+					<section>
+						<ul>
+							<li> The cookie should be transferred only over HTTPS.</li>
+							<li> httpOnly </li>
+						</ul>	
+						<img id="meme" src="meme-granny.jpg" alt="cook">
+					</section>
+				<section >
+					<h1>Summary</h1>
+					<div> <ul>
+							<li>cookies are small strings of data  </li>
+							<li>cookies make our internet experience more comfortable</li>
+							<li>cookies have some limits</li>
+							<li>cookies are safe</li>
+							<li>but not always</li>
+							<li>but they are still cool </li>
+						</ul>
+					</div>
+				</section> 	
+					
+				<section id="end">
+					<h1>Resources</h1>
+					<div id="degdf"> <ul>
+							<li id="sour"> https://javascript.info/cookie#samesite</li>
+							<li id="sour"> https://www.youtube.com/watch?v=zLkO56EMBx8&ab_channel=Droider </li>
+							<li id="sour">https://www.youtube.com/watch?v=pmd8D_YZ0BE&ab_channel=DeveloperInUS</li>
+							<li id="sour">https://sendpulse.by/support/glossary/cookies</li>
+							<li id="sour">https://skillbox.ru/media/marketing/s-chem-edyat-cookies-tekhnicheskiy-i-yuridicheskiy-likbez-dlya-marketologov/</li>
+							<li id="sour">https://ssl.com.ua/blog/what-are-cookies/</li>
+							<li id="sour">https://www.kaspersky.com/resource-center/definitions/cookies</li>
+							<li id="sour">https://www.techtarget.com/searchsoftwarequality/definition/cookie</li>
+							<li id="sour">https://www.cloudflare.com/learning/privacy/what-are-cookies/</li>
+						</ul>
+					</div>
+				</section> 
+
+						
+
+
+
+
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
