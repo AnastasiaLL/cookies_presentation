@@ -1,0 +1,39 @@
+
+#start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-image: url(../cookie-recipes.jpg);
+}
+
+#cookies{
+    background-color: #6e2200;
+    margin-top: 262px;
+}
+
+#sour{
+    font-size: 30px;
+}
+
+#color{
+    color: #ffaf8c;
+}
+
+#meme{
+    height: 454px;
+}
+
+#end{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-image: url(../cookie-recipes.jpg);
+}
+
+#degdf{
+    margin-top: 30px;
+    background-color: #ffffff;
+}
